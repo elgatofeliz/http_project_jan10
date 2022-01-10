@@ -1,0 +1,51 @@
+/* NAV */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin-left: 5vw;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logoWrap{
+    display: flex;
+}
+#flowerWrap{
+    width: 36px;
+    height: 36px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.flowerLeafNormal{
+    background: url("../images/nav_logo.svg") center/cover no-repeat;
+    width: 18px;
+    height: 18px;
+}
+.flowerLeafRotate{
+    background: url("../images/nav_logo.svg") center/cover no-repeat;
+    transform: rotate(90deg);
+    width: 18px;
+    height: 18px;
+}
+#logoWrap>h1{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;;
+}
+ul>li{
+    margin: 0 35px;
+}
+
+ul>li>a{
+    text-decoration: none;
+}
